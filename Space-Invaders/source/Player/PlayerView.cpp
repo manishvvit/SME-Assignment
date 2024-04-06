@@ -43,7 +43,7 @@ namespace Player
 
 	void PlayerView::destroy()
 	{
-		delete(player_image);
+		delete player_image;
 	}
 
 	void PlayerView::setPlayerHighlight(bool b_highlight)
